@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Edson Kenji Ninomiya]]></title>
+  <link href="http://kenjinino.github.com/atom.xml" rel="self"/>
+  <link href="http://kenjinino.github.com/"/>
+  <updated>2012-12-20T05:30:18-02:00</updated>
+  <id>http://kenjinino.github.com/</id>
+  <author>
+    <name><![CDATA[Edson Kenji Ninomiya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
