@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Edson Kenji Ninomiya</title>
+  <title>Post inaugural: Octopress, primeiras impressões - Edson Kenji Ninomiya</title>
   <meta name="author" content="Edson Kenji Ninomiya">
 
   
@@ -21,7 +21,7 @@ Github Pages. Não &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kenjinino.github.com/">
+  <link rel="canonical" href="http://kenjinino.github.com/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -85,16 +85,13 @@ Github Pages. Não &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/">Post Inaugural: Octopress, Primeiras Impressões</a></h1>
+      
+        <h1 class="entry-title">Post Inaugural: Octopress, Primeiras Impressões</h1>
       
     
     
@@ -113,14 +110,14 @@ Github Pages. Não &hellip;">
 
 <time datetime="2012-12-20T19:15:00-02:00" pubdate data-updated="true">Dec 20<span>th</span>, 2012</time>
         
-         | <a href="/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Este é o primeiro post do meu blog pessoal.<br/>
+<div class="entry-content"><p>Este é o primeiro post do meu blog pessoal.<br/>
 Utilizei o <a href="http://octopress.org/">Octopress</a> como plataforma para o blog, baseado no
 <a href="https://github.com/mojombo/jekyll/">Jekyll</a> utilizado pelo
 <a href="http://pages.github.com/">Github Pages</a>. Não cheguei a testar o Wordpress e
@@ -131,23 +128,113 @@ próprio site:</p>
 
 <blockquote><p>Octopress: A blogging framework for hackers.</p></blockquote>
 
-<p>Ao ler a documentação da ferramenta, o motivo do título foi ficando mais claro.</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/">Read on &rarr;</a>
-    </footer>
-  
+<p>Ao ler a documentação da ferramenta, o motivo do título foi ficando mais claro.<!-- more -->
+Já no início ele traz o aviso que se você não tem conhecimentos de git e não
+está habituado a usar a linha de comando, provavelmente o Octopress não seja o ideal.</p>
+
+<p>Pelo fato dele estar desenvolvido em ruby (foi o que me chamou a atenção, por
+ser minha linguagem favorita), muitas das ferramentas utilizadas
+internamente fazem parte do cotidiano de um rails developer, como o
+Bundler (gerenciador de dependências) e Rake (automatiza tarefas
+definidas em um arquivo, assim como no make), entre outros.</p>
+
+<p>O Octopress ao contrário do Jekyll tem um setup time menor, pois no último é
+necessário escrever seus próprios templates html, css e javascripts, enquanto
+no primeiro o usuário pode utilizar um tema padrão ou escolher
+<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">alguma outra já pronta</a>
+(o que é um alívio para desenvolvedores já que normalmente
+criar designs bonitos para páginas não é exatamente um dom natural para nós).</p>
+
+<p>Um outro ponto interessante nessa plataforma é a simplicidade no deployment.
+Podemos realizar essa tarefa para três destinos diferentes, com links para suas
+instruções:</p>
+
+<ul>
+<li><a href="http://octopress.org/docs/deploying/github/">Github Pages</a>;</li>
+<li><a href="http://octopress.org/docs/deploying/heroku/">Heroku</a>;</li>
+<li><a href="http://octopress.org/docs/deploying/rsync/">Servidor particular utilizando Rsync</a>.</li>
+</ul>
 
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+<p>Os dois primeiros são de graça e escolhi o Github Pages por já possuir uma
+conta no próprio Github. E seguindo os procedimentos de deploy, com algumas
+rake tasks o blog já estava no ar com a url padrão <code>http://username.github.com</code>
+que pode ser customizada posteriomente.</p>
+
+<p>Ao contrário do que se espera de sistemas webs, o conteúdo do blog não fica
+armazenado em bancos de dados, ao invés disso os posts (escritos em Markdown,
+uma markup language) se situam em arquivos numa pasta do código fonte, sendo
+assim versionados pelo git, podendo ser redigidos pelo usuário no editor
+de texto de sua escolha.</p>
+
+<p><span class='pullquote-right' data-pullquote='um blogging framework para developers'>
+É possível colocar o blog no ar a partir do zero em poucas horas e customizar
+o que lhe for conveniente em seu layout. Passado algumas horas entendendo como
+esta plataforma de blog funciona, dá para se dizer que o
+Octopress está mais para um blogging framework para developers.
+</span></p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Edson Kenji Ninomiya</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-20T19:15:00-02:00" pubdate data-updated="true">Dec 20<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kenjinino.github.com/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/" data-via="" data-counturl="http://kenjinino.github.com/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -174,7 +261,7 @@ próprio site:</p>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/kenjinino">@kenjinino</a> on GitHub
@@ -217,6 +304,7 @@ próprio site:</p>
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -231,7 +319,10 @@ próprio site:</p>
       var disqus_shortname = 'kenjinino';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://kenjinino.github.com/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/';
+        var disqus_url = 'http://kenjinino.github.com/blog/2012/12/20/post-inaugural-octopress-primeiras-impressoes/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
